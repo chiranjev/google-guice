@@ -32,6 +32,7 @@ public class GuiceDemo {
 	
 	public static void main(String[] args) {
 		sendRequest(CIRCLE_REQ);
+		sendRequest(SQUARE_REQ);
 	}
 
 }

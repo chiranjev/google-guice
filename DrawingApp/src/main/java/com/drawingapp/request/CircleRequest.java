@@ -10,7 +10,8 @@ public class CircleRequest {
 	
 	//1. constructor injection
 	@Inject
-	public CircleRequest(@Named("Circle") DrawShape d){ // named annotation
+//	public CircleRequest(@Named("Circle") DrawShape d){ // named annotation
+	public CircleRequest(@Circle DrawShape d){
 		this.d = d;
 	}
 
